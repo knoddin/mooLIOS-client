@@ -1,0 +1,22 @@
+---
+name: home
+url: /
+---
+
+<div class="grid-container">
+  <h1 class="welcome-header">Welcome to mooLIOS!</h1>
+  <form id="log-in">
+      <div>
+        <label for="credentials[email]">Email</label>
+        <input name="credentials[email]" id="credentials[email]" type="email" placeholder="Email" required>
+      </div>
+      <div>
+        <label for="credentials[password]">Password</label>
+        <input name="credentials[password]" id="credentials[password]" type="password" placeholder="Password" required>
+      </div>
+      <button type="submit">Log In</button>
+    </form><br>
+  <div>
+    <p>New user? <a ng-href="/#!/sign-up">Sign up here.</a></p>
+  </div>
+</div>
